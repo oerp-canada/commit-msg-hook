@@ -3,4 +3,3 @@
   entry: ./check_commit_msg.sh
   language: script
   stages: [commit-msg]
-  pass_filenames: false
