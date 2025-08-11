@@ -1,5 +1,5 @@
 - id: commit-msg-format
   name: Enforce commit message format and description
-  entry: python3 ./check_commit_msg.py
-  language: system
+  entry: ./check_commit_msg.py
+  language: python
   stages: [commit-msg]
