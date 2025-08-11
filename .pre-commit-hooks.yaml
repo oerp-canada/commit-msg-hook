@@ -1,5 +1,5 @@
 - id: commit-msg-format
   name: Enforce commit message format and description
   entry: ./check_commit_msg.sh
-  language: script
+  language: system
   stages: [commit-msg]
