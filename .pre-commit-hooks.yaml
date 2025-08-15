@@ -1,5 +1,5 @@
 - id: commit-msg-format
   name: Enforce commit message format and description
-  entry: bash check_commit_msg.sh
+  entry: ./.pre-commit/check_commit_msg.sh
   language: system
   stages: [commit-msg]
